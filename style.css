@@ -1,17 +1,37 @@
-/* .container {
+body {
+    margin: auto;
+    width: 50%;
+}
+
+.container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    width: 640px;
 }
 
 #ping-pong {
     width: 640px;
     height: 426px;
-    display: inline-block;
-    margin: 10px auto;
+    /* display: block; */
     padding: 5px;
+    flex: 0 0 auto;
 }
 
-div {
-    display: block;
-} */
+.sub-container {
+    flex-basis: 100%; /*making everything break to new line */
+    margin: 10px;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+.winner {
+    color: green;
+}
+
+.loser {
+    color: red;
+}

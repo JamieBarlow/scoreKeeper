@@ -11,25 +11,27 @@
 
 <body>
     <div class="container">
-        <div>
-            <!-- <img src="Resources/pingpong1.jpg" alt="Ping Pong" id="ping-pong"> -->
-        </div>
-        <div>
+        <img src="Resources/pingpong1.jpg" alt="Ping Pong" id="ping-pong">
+        <div class="sub-container">
             <h1>Ping Pong Score Keeper</h1>
         </div>
-        <div>
+        <div class="sub-container">
             <h2><span id="p1Display">0</span> to <span id="p2Display">0</span></h2>
+            <p>Use the buttons below to keep score.</p>
         </div>
-        <p>Use the buttons below to keep score.</p>
-        <h3>Playing To</h3>
-        <select name="playingTo" id="playingTo">
-            <option value="3">3</option>
-            <option value="5">5</option>
-            <option value="7">7</option>
-        </select>
-        <button id="p1Button">+1 Player One</button>
-        <button id="p2Button">+2 Player Two</button>
-        <button id="reset">Reset</button>
+        <div class="sub-container">
+            <label>Playing To</label>
+            <select name="playingTo" id="playingTo">
+                <option value="3">3</option>
+                <option value="5">5</option>
+                <option value="7">7</option>
+            </select>
+        </div>
+        <div class="sub-container">
+            <button id="p1Button">+1 Player One</button>
+            <button id="p2Button">+2 Player Two</button>
+            <button id="reset">Reset</button>
+        </div>
     </div>
     <script src="app.js"></script>
 </body>
