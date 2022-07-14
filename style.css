@@ -21,35 +21,46 @@
 }
 
 .sub-container {
-    padding: 10px;
-    margin: 10px;
-    min-width: 40%;
+    padding: 15px;
+    margin: 15px;
+    flex-basis: 40%;
+    border: 0.5px transparent;
+    border-radius: 20px;
+    background: rgb(144, 203, 218);
+    box-shadow: 2px 5px 5px rgb(97, 106, 122);
 }
 
 .one {
-    background: red;
+    background: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    flex-basis: 80%;
+    display: flex;
+    justify-content: center;
 }
 
 .two {
-    background: green;
+    /* background: green; */
 }
 
 .three {
-    background: yellow;
+    /* background: yellow; */
 }
 .four {
-    background: orange;
+    /* background: orange; */
 }
 .five {
-    background: blue;
+    /* background: blue; */
 }
 
 #ping-pong {
     width: 640px;
+    min-width: 40%;
     max-width: 100%;   /*preventing image overflow*/
     height: auto;      /*ensuring image scales with width*/
-    padding: 5px;
     display: block;
+    border-radius: 40px;
 }
 
 h1, h2 {
