@@ -1,24 +1,55 @@
-body {
+/* body {
     margin: auto;
     width: 50%;
     position: relative;
+} */
+
+.wrapper {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 .container {
-    position: absolute;
-    width: 640px;
+    /* position: absolute; */
+    /* width: 640px; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.sub-container {
+    padding: 10px;
+    margin: 10px;
+    min-width: 40%;
+}
+
+.one {
+    background: red;
+}
+
+.two {
+    background: green;
+}
+
+.three {
+    background: yellow;
+}
+.four {
+    background: orange;
+}
+.five {
+    background: blue;
 }
 
 #ping-pong {
     width: 640px;
-    height: 426px;
-    /* display: block; */
+    max-width: 100%;   /*preventing image overflow*/
+    height: auto;      /*ensuring image scales with width*/
     padding: 5px;
-    flex: 0 0 auto;
-}
-
-.sub-container {
-    margin: 10px;
+    display: block;
 }
 
 h1, h2 {
