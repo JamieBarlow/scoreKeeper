@@ -40,20 +40,6 @@
     justify-content: center;
 }
 
-.two {
-    /* background: green; */
-}
-
-.three {
-    /* background: yellow; */
-}
-.four {
-    /* background: orange; */
-}
-.five {
-    /* background: blue; */
-}
-
 #ping-pong {
     width: 640px;
     min-width: 40%;
